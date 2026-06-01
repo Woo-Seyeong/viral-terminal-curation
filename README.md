@@ -1,7 +1,7 @@
 # viral-terminal-curation
 Python/Jupyter workflow for curating hairpin-ended dsDNA virus genome termini — DRC trimming, orientation normalization, and ITR candidate detection.
 
-# google colab link
+## google colab link
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Woo-Seyeong/viral-terminal-curation/blob/main/hairpin_finder_v2.ipynb)
 
 ## Overview
