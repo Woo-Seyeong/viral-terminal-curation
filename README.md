@@ -23,13 +23,10 @@ Each input sequence passes through four main steps:
 
 ## Requirements
 
-- Python 3.10.20
-- Biopython 1.87
-- Jupyter Notebook
-- (standard scientific Python stack)
+- biopython>=1.80
 
 ```bash
-pip install biopython notebook
+pip install biopython
 ```
 
 ## Usage
@@ -64,14 +61,10 @@ All parameters are defined in the configuration cell at the top of the notebook.
 
 | File | Contents |
 |---|---|
-| `*_curated.fasta` | Curated sequence for each input genome |
-| combined FASTA | All curated sequences, for downstream comparative analysis |
+| `header_name.fasta` | Curated sequence for each input genome |
+| `all_final_sequences.fasta` | All curated sequences, for downstream comparative analysis |
 | `summary_report.csv` | Genome-level curation results (lengths, DRC cuts, orientation status, ITR candidate info) |
 | `drc_debug_report.csv` | Window-level evidence supporting each DRC trimming decision |
-
-## Citation
-
-If you use this workflow, please cite the associated thesis (see `CITATION.cff`).
 
 ## License
 
