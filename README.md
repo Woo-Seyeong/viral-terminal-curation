@@ -4,7 +4,7 @@ Python/Jupyter workflow for curating hairpin-ended dsDNA virus genome termini â€
 
 ## Open in Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Woo-Seyeong/viral-terminal-curation/blob/main/hairpin_finder_v2.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Woo-Seyeong/viral-terminal-curation/blob/main/hairpin_terminal_curator_v2.ipynb)
 
 ## Overview
 
@@ -43,7 +43,7 @@ Input/output paths are set in the **`# User configuration`** cell at the top of 
 
 1. Open the notebook:
    ```bash
-   jupyter notebook hairpin_finder_v2.ipynb
+   jupyter notebook hairpin_terminal_curator_v2.ipynb
    ```
 2. In the configuration cell, set `INPUT_FASTA` and `OUTPUT_DIR` (and optionally `REFERENCE_FASTA`).
 3. Run all cells.
