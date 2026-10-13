@@ -29,7 +29,7 @@ Each input sequence passes through four main steps:
 |---|---|
 | `hairpin_terminal_curator_v3.1.ipynb` | The curation workflow: DRC detection and trimming, terminal boundary refinement, orientation normalization, ITR candidate detection. |
 | `simulation_benchmark.py` | Generates the simulated hairpin-ended genomes and reproduces the benchmark of the accompanying paper (Table 3, Figure S1). |
-| `loop_orientation_count.py` | Counts reads supporting each terminal-loop orientation (flip/flop) directly from FASTQ, without an assembly or read mapping. |
+| `loop_orientation_count.py` |
 
 ## Requirements
 
