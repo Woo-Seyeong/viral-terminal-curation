@@ -43,7 +43,7 @@ Input/output paths are set in the **`# User configuration`** cell at the top of 
 
 1. Open the notebook:
    ```bash
-   jupyter notebook hairpin-terminal-curator_v2.ipynb
+   jupyter notebook hairpin-terminal-curator_v3.1.ipynb
    ```
 2. In the configuration cell, set `INPUT_FASTA` and `OUTPUT_DIR` (and optionally `REFERENCE_FASTA`).
 3. Run all cells.
